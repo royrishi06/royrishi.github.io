@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rishi Roy</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="images/Screenshot from 2024-07-02 16-09-18.jpg" class="nav__logo" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, I'm Rishi</h2>
+                <p class="hero_desc">I am a Software Engineer currently studying at DTU</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/WhatsApp Image 2024-07-01 at 7.29.51 PM.jpeg" class= "imageAboutPage" style= "width:16em; height:20em;" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p style="font-size: 1.4em;"> I'm a final year student at DTU, Delhi enrolled in the CSE department, looking for interesting opportunities in the industry. My current academic experience has been focussed around Operating Systems and Machine Learning/Deep Learning but I'm comfortable working on new technologies and learning on the role.
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul style="font-size: 1.4em;">
+                                <li>Name: Rishi Roy</li>
+                                <li>Age: 21</li>
+                                <li>Occupation: Software Engineer</li>
+
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul style="font-size: 1.4em;">
+                                <li> College student</li>
+                                <li> Avid Quizzer</li>
+                                <li>Curious about new technological developments</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- skills section-->
+    <section id="skills">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Operating Systems</h4>
+                            <p class="card-text mt-3">Comfortable working with UNIX based operating systems and exploring new and interesting challenges around compatibility of different applications and the operating systems. 
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3">Machine Learning</h4>
+                            <p class="card-text mt-3">Experience of working with different kinds of ML tools, packages and datasets.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Deep Learning Models</h4>
+                            <p class="card-text mt-3">Worked with encoders and decoders. Different neural network architectures and models such as ResNet, GoogleNet, AlexNet. Experience with finetuning models like Hugging-Face.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/Screenshot from 2024-07-02 13-16-19.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Sorting Visualiser</h4>
+                            <p class="card-text">Created a Sorting Algorithm Visualiser using Javascript hosted on Github to show the
+                                application of 5 sorting algorithms with varying input sizes and speeds of visualization</p>
+                            <div class="text-center">
+                                <a href="https://royrishi06.github.io/Sorting-Visualiser/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Screenshot from 2024-07-02 13-23-04.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Text Editor</h4>
+                            <p class="card-text">Created a Text Editor using python, tkinter and Window modules which supports basic text
+                                operations such as edit, delete and undo/redo for a given file</p>
+                            <div class="text-center">
+                                <a href="https://github.com/royrishi06/Text-Editor" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/portfolioImage4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Experimental project as exploration for Operating Systems</h4>
+                            <p class="card-text">Developed a Shell using C which can execute its configuration files, parse given
+                                standard input commands and execute them</p>
+                            <div class="text-center">
+                                <a href="https://github.com/royrishi06/Basic_C_shell" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Screenshot from 2024-07-02 14-17-48.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Machine Learning</h4>
+                            <p class="card-text">Worked with a twitter dataset of 300000 tweets with likes, media, content provided by
+                                Adobe and performed Exploratory Data Analysis using:<br>
+                                NLTK library and stopwords, stemmer, lemmatizer modules to clean the
+                                dataset<br>
+                                WordCloud library for providing sentiment analysis</p>
+                            <div class="text-center">
+                                <a href="https://github.com/royrishi06/Behaviour-and-Content-Simulation" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/Screenshot from 2024-07-02 14-41-06.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Meme Captioning Model</h4>
+                            <p class="card-text">The multimodal nature of this task necessitates the integration of computer vision and natural language processing techniques. The model must be able to effectively understand and interpret the visual content of the meme image, as well as process and comprehend the textual information from the image captions. </p>
+                            <div class="text-center">
+                                <a href="https://github.com/royrishi06/Meme_Captioning_Model" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=dtu&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="social-icons mt-5">
+                        <a href="https://github.com/royrishi06" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/rishi-roy-992459146" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="mailto:rishi.roy630@gmail.com" target="_blank"><i class="fab fa-google fa-2x"></i></a>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+     <!-- footer section-->
+     <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://github.com/royrishi06" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rishi-roy-992459146" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:rishi.roy630@gmail.com" target="_blank"><i class="fab fa-google"></i></a>
+                <h4> rishi.roy630@gmail.com</h4>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+    
+</body>
+</html>

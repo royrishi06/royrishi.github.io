@@ -5,6 +5,25 @@
     background-size:cover;
     position:relative;
 }
+
+.typewriter {
+    overflow: hidden; /* Ensures the content is hidden as it is typed out */
+    border-right: .15em solid orange; /* Creates the cursor effect */
+    white-space: nowrap; /* Ensures the text does not wrap */
+    margin: 0 auto; /* Center the text */
+    letter-spacing: .15em; /* Adjusts spacing between characters */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: orange; }
+  }
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
